@@ -1,8 +1,19 @@
-const numeros = [1, 2, 5];
+             //  0  1  2  3   4
+             // -5 -4 -3  -2 -1
+const numeros = [1, 2, 5, 10, 8];
 
-let num1 = 1;
-let num2 = -1;
+somaValores = (a, b) => {
+console.log(numeros.at(a) + numeros.at(b));
+}
 
-console.log(numeros.at(num1) + numeros.at(num2));
-// Return: 2+5 = 7
+somaValores(0, -1);
+// return 9
+somaValores(1, -3);
+// return 7
+somaValores(2, 3)
+// return 15
+somaValores(-4, -1);
+// return 10
+
+
 
