@@ -1,9 +1,10 @@
              //  0  1  2  3   4
              // -5 -4 -3  -2 -1
-const numeros = [1, 2, 5, 10, 8];
+const numeros = [1, 2, 5, 10, 8, 14, 15];
 
 somaValores = (a, b) => {
-console.log(numeros.at(a) + numeros.at(b));
+// console.log(numeros.at(a) + numeros.at(b));
+console.log(numeros.at(-2))
 }
 
 somaValores(0, -1);

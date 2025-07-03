@@ -1,6 +1,6 @@
 const words = ["spray", "elite", "exuberant", "destruction", "present"];
 
-letters = (array, maiorOumenor, amount) => {
+const letters = (array, maiorOumenor, amount) => {
     if(maiorOumenor === "maior"){
     const result = array.filter((word) => word.length > amount);
     console.log(result);
@@ -10,5 +10,5 @@ letters = (array, maiorOumenor, amount) => {
     }
 }
 
-letters(words, "menor", 6);
-letters(words, "maior", 6);
+letters(words, "menor", 6); // returns [ 'spray', 'elite' ]
+letters(words, "maior", 6); // returns [ 'exuberant', 'destruction', 'present' ]
